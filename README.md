@@ -26,8 +26,8 @@ Two words: type safety.
 
 - Node 8
 - Express 4
-- React 15.6
-- Typescript 2.3
+- React 16.4
+- Typescript 3.0
 - Redux 3.7
 - Webpack 2.6
 - Jest
@@ -44,17 +44,8 @@ In order to start the project, you will need Node 8 installed! Please visit node
 Install all required dependecies with
 
 ```
-yarn install
-```
-
-or 
-
-```
 npm install
 ```
-
-
-
 
 
 Create a .env file in the project root where you will keep the environment variables. Using the environment variables is based on the dotenv package, whose details can be found here: https://github.com/motdotla/dotenv
@@ -70,12 +61,6 @@ NODE_ENV=development
 To start a development node server, simply type
 
 ```javascript
-yarn nstart
-```
-
-or
-
-```javascript
 npm run nstart
 ```
 
@@ -84,26 +69,12 @@ npm run nstart
 As for React in development mode (server), start by typing
 
 ```
-yarn rstart
-```
-
-or
-
-```
 npm run rstart
 ```
 
 
 
 If you would like to build node, react or both, use one of the following commands respectively
-
-```
-yarn node-build
-yarn react-build
-yarn build
-```
-
-or
 
 ```
 npm run node-build
